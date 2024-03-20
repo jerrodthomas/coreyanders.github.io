@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+		<meta charset="UTF-8">
+  		<meta name="viewport" content="width=device-width">
+		<title>artist at large</title>
+		<link rel="stylesheet" href="./style/nav.css">
+		<link rel="stylesheet" href="./style/main.css">
+	</head>
+	<body>
+		<img src="./images/banner.png" alt="banner" class="center">
+		<nav>
+			<div class="navbar">
+				<a href="index.html" class="cap">Home</a>
+				<div class="dropdown">
+					<button class="dropbtn cap">artwork
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="pages.html">pages</a>
+						<a href="#">cover</a>
+						<a href="pinups.html">pinups</a>
+						<a href="misc.html">Miscellaneous</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div class="art">
+			<figure>
+				<img src="./images/gein01.jpg" class="page">
+				<figcaption>Detective Comics Volume 1 Issue 732</figcaption>
+			</figure>
+			<figure>
+				<img src="./images/gein02.jpg" class="page">
+				<figcaption>Hellblazer Volume 2 Issue 13</figcaption>
+			</figure>
+		</div>
+		
+	</body>
+</html>
