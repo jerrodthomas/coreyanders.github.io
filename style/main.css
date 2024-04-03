@@ -37,6 +37,11 @@ button {font-family: 'Protest Strike', sans-serif;}
 img, figcaption {
  vertical-align: bottom;
 }
+
+.flip {{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
 figcaption {
  width: 100%;
  display: flex;
