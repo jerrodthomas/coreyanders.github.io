@@ -21,7 +21,7 @@ nav {margin-top: 15px;}
 
 button {font-family: 'Protest Strike', sans-serif;}
 
-.page {height: 500px;}
+.page {height: 500px; display: block;}
 
 .art {
 	margin: auto;
