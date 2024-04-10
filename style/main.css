@@ -29,7 +29,7 @@ button {font-family: 'Protest Strike', sans-serif;}
 	/*padding: 5px;*/
 	
   }
-  
+  figcaption {color: red;}
  figure {
  display: inline-block;
  vertical-align: top;
