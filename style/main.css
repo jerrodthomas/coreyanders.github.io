@@ -29,7 +29,8 @@ button {font-family: 'Protest Strike', sans-serif;}
 	width:  99%;
 	/*padding: 5px;*/
 	color: red;
-	
+	text-decoration: underline;
+	text-transform: uppercase;
   }
 figcaption {color: red; font-size: 40px;}
  figure {
