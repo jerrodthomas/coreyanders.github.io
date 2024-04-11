@@ -28,6 +28,7 @@ button {font-family: 'Protest Strike', sans-serif;}
 	margin: auto;
 	width:  99%;
 	/*padding: 5px;*/
+	color: red;
 	
   }
 figcaption {color: red; font-size: 40px;}
@@ -39,7 +40,7 @@ img, figcaption {
  vertical-align: bottom;
 }
 
-.flip {{
+.flip {
   -moz-transform: scale(-1, -1);
     -o-transform: scale(-1, -1);
     -webkit-transform: scale(-1, -1);
