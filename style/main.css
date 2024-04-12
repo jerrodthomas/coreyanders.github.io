@@ -61,7 +61,7 @@ figcaption {
  padding-top: 5px;
  text-align: center;
  font-weight: bolder;}
-
+td {align: center;}
 div h1 {
 	text-align: center;
 	text-decoration: underline;
