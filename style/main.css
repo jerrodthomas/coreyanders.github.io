@@ -4,6 +4,7 @@ body {
 	background: #000000;
 	font-family: 'Protest Strike', sans-serif;
 	color: #f11712;
+	 font-size: 16px;
 	}
 
 .center {
@@ -31,6 +32,7 @@ button {font-family: 'Protest Strike', sans-serif;}
 	color: midnight#0099f7;
 	text-decoration: underline;
 	text-transform: uppercase;
+	 font-size: 16px;
   }
 
  figure {
@@ -39,6 +41,7 @@ button {font-family: 'Protest Strike', sans-serif;}
 }
 img, figcaption {
  vertical-align: bottom;
+	 font-size: 16px;
 }
 
 .flip {
@@ -55,14 +58,16 @@ figcaption {
  padding-top: 5px;
  text-align: center;
  font-weight: bolder;
+	 font-size: 16px;
 }
 .below {color: #f11712;
  font-family: "Gideon Roman", serif;
  padding-top: 5px;
  text-align: center;
- font-weight: bolder;}
-th {color: #0099f7;}
-td {align: center;}
+ font-weight: bolder;
+        font-size: 16px;}
+th {color: #0099f7; font-size: 16px;}
+td {align: center;  font-size: 16px;}
 div h1 {
 	text-align: center;
 	text-decoration: underline;
