@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Protest+Strike&display=swap');
+ht:@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Protest+Strike&display=swap');
 
 body {
 	background: #000000;
@@ -61,7 +61,7 @@ figcaption {
  padding-top: 5px;
  text-align: center;
  font-weight: bolder;}
-th {color: cyan;}
+th {color: cyan; height: 500px; width:400px;}
 td {align: center;}
 div h1 {
 	text-align: center;
