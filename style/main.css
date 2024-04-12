@@ -32,7 +32,7 @@ button {font-family: 'Protest Strike', sans-serif;}
 	text-decoration: underline;
 	text-transform: uppercase;
   }
-figcaption {color: red; font-size: 40px;}
+
  figure {
  display: inline-block;
  vertical-align: top;
@@ -50,7 +50,7 @@ img, figcaption {
 figcaption {
  width: 100%;
  display: flex;
- color: #ffffff;
+ color: red; font-size: 40px;
  font-family: "Gideon Roman", serif;
  padding-top: 5px;
  text-align: center;
