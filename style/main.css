@@ -1,9 +1,9 @@
-ht:@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Protest+Strike&display=swap');
 
 body {
 	background: #000000;
 	font-family: 'Protest Strike', sans-serif;
-	color: red;
+	color: #f11712;
 	}
 
 .center {
@@ -28,7 +28,7 @@ button {font-family: 'Protest Strike', sans-serif;}
 	margin: auto;
 	width:  99%;
 	/*padding: 5px;*/
-	color: midnightcyan;
+	color: midnight#0099f7;
 	text-decoration: underline;
 	text-transform: uppercase;
   }
@@ -48,21 +48,20 @@ img, figcaption {
     transform: scale(-1, -1);
 }
 figcaption {
-	font-size: 10px;
  width: 100%;
  display: flex;
- color: red;
+ color: #f11712;
  font-family: "Gideon Roman", serif;
  padding-top: 5px;
  text-align: center;
  font-weight: bolder;
 }
-.below {font-size: 10px; color: red;
+.below {color: #f11712;
  font-family: "Gideon Roman", serif;
  padding-top: 5px;
  text-align: center;
  font-weight: bolder;}
-th {color: cyan; height: 500px; width:400px;}
+th {color: #0099f7;}
 td {align: center;}
 div h1 {
 	text-align: center;
