@@ -8,7 +8,7 @@ body {
 nav {margin-top: 15px; text-transform: uppercase;}
 
 button {font-family: 'Protest Strike', sans-serif;}
-
+.pot {height: 250px;}
 .page {height: 500px; display: block;}
 
 .art {
