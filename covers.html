@@ -1,15 +1,66 @@
 <!DOCTYPE html>
-<html lang="fr">
-    <head>
-		<meta charset="UTF-8">
-  		<meta name="viewport" content="width=device-width">
-		<title>artist at large</title>
-		<link rel="stylesheet" href="./style/nav.css">
+<html>
+<head>
+<link rel="stylesheet" href="./style/nav.css">
 		<link rel="stylesheet" href="./style/main.css">
-	</head>
-	<body>
-		<img src="./images/banner.png" alt="banner" class="center">
-		<nav>
+<style>
+body {color: #0060aa;}
+div.gallery {
+  /*border: 1px solid #ccc;*/
+}
+
+div.gallery:hover {
+  /*border: 1px solid #777;*/
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #e20025;
+  font-weight: bolder;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {color: #ffed10;}
+h2 {color: #0060aa;}
+</style>
+</head>
+<body>
+<img src="./images/banner.png" alt="banner" class="center">
+<nav>
 			<div class="navbar">
 				<a href="index.html" class="cap">Home</a>
 				<a href="#home" class="cap">About</a>
@@ -18,7 +69,7 @@
 						<i class="fa fa-caret-down"></i>
 					</button>
 					<div class="dropdown-content">
-						<a href="pages.html">Pages</a>
+						<a href="#">Pages</a>
 						<a href="covers.html">Covers</a>
 						<a href="pinups.html">Pinups</a>
 						<a href="misc.html">Miscellaneous</a>
@@ -44,20 +95,86 @@
 				</div>
 			</div>
 		</nav>
-		<table class="art">
-			<tr>
-				<th class="issue">Detective Comics</th>
-				<th class="issue">Hellblazer</th>
-			</tr>
-			<tr>
-				<td><img src="./images/dccover.jpg" class="page center" alt="page 1"></td>
-				<td><img src="./images/helblazer cover.jpg" class="page center" alt="page 1"></td>
-			</tr>
-			<tr>
-				<th class="below">Volume 1 Issue 732</th>
-				<th class="below">Volume 2 Issue 13</th>
-			</tr>
-		</table>
-		
-	</body>
+<h1>COVERS</h1>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/dccover.jpg">
+      <img src="./images/dccover.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Detective Comics 732</h2></div>
+  </div>
+</div>
+<!--
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/dcpage2.jpg">
+      <img src="./images/dcpage2.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Detective Comics 732</h2>Page 2</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/dcpage3.jpg">
+      <img src="./images/dcpage3.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Detective Comics 732</h2>Page 3</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/dcpage4.jpg">
+      <img src="./images/dcpage4.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Detective Comics 732</h2>Page 4</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/dcpage5.jpg">
+      <img src="./images/dcpage5.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Detective Comics 732</h2>Page 5</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/hellblazer1.jpg">
+      <img src="./images/hellblazer1.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Hellblazer Volume 2 #13</h2>Page 1</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/helblazer2.jpg">
+      <img src="./images/helblazer2.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Hellblazer Volume 2 #13</h2>Page 2</div>
+  </div>
+</div>
+-->
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/helblazer cover.jpg">
+      <img src="./images/helblazer cover.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Hellblazer Volume 2 #13</h2></div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  &nbsp;
+</div>
+
+</body>
 </html>
