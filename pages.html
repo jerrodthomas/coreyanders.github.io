@@ -1,15 +1,66 @@
 <!DOCTYPE html>
-<html lang="fr">
-    <head>
-		<meta charset="UTF-8">
-  		<meta name="viewport" content="width=device-width">
-		<title>artist at large</title>
-		<link rel="stylesheet" href="./style/nav.css">
+<html>
+<head>
+<link rel="stylesheet" href="./style/nav.css">
 		<link rel="stylesheet" href="./style/main.css">
-	</head>
-	<body>
-		<img src="./images/banner.png" alt="banner" class="center">
-		<nav>
+<style>
+body {color: #0060aa;}
+div.gallery {
+  /*border: 1px solid #ccc;*/
+}
+
+div.gallery:hover {
+  /*border: 1px solid #777;*/
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #e20025;
+  font-weight: bolder;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {color: #ffed10;}
+h2 {color: #0060aa;}
+</style>
+</head>
+<body>
+<img src="./images/banner.png" alt="banner" class="center">
+<nav>
 			<div class="navbar">
 				<a href="index.html" class="cap">Home</a>
 				<a href="#home" class="cap">About</a>
@@ -44,59 +95,87 @@
 				</div>
 			</div>
 		</nav>
-		<div class="art">
-		<table>
-			<tr>
-				<th colspan="3" class="issue">
-					Detective Comics #723
-				</th>
-			</tr>
-				<td>
-					<img src="./images/dcpage1.jpg" class="page center" alt="page 1">
-				</td>
-				<td>
-					<img src="./images/dcpage2.jpg" class="page center" alt="page 1">
-				</td>
-				<td>
-					<img src="./images/dcpage3.jpg" class="page center" alt="page">
-				</td>
-			</tr>
-			<tr>
-				<th class"info">Page 1</th>
-				<th class"info">Page 2</th>
-				<th class"info">Page 3</th>
-			</tr>
-			<tr>
-				<td>
-					<img src="./images/dcpage4.jpg" class="page center" alt="page 1">
-				</td>
-				<td>
-					<img src="./images/dcpage5.jpg" class="page center" alt="page 1">
-				</td>
-			</tr>
-			<tr>
-				<th class"info">Page 4</th>
-				<th class"info">Page 5</th>
-			</tr>
-			<tr>
-				<th colspan="3" class="issue">Hellblazer #13</th>
-			</tr>
-			<tr>
-				<td>
-					<img src="./images/hellblazer1.jpg" class="page center">
-				</td>
-				<td>
-					<img src="./images/helblazer2.jpg" class="page center">
-				</td>
-				<td>
-					<img src="./images/hellblazer3.jpg" class="page center">
-				</td>
-				<tr>
-					<th class"info">Page 1</th>
-					<th class"info">Page 2</th>
-					<th class"info">Page 3</th>
-				</tr>
-			</table>
-		</div>
-	</body>
+<h1>PAGES</h1>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/dcpage1.jpg">
+      <img src="./images/dcpage1.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Detective Comics 732</h2>Page 1</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/dcpage2.jpg">
+      <img src="./images/dcpage2.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Detective Comics 732</h2>Page 2</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/dcpage3.jpg">
+      <img src="./images/dcpage3.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Detective Comics 732</h2>Page 3</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/dcpage4.jpg">
+      <img src="./images/dcpage4.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Detective Comics 732</h2>Page 4</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/dcpage5.jpg">
+      <img src="./images/dcpage5.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Detective Comics 732</h2>Page 5</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/hellblazer1.jpg">
+      <img src="./images/hellblazer1.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Hellblazer Volume 2 #13</h2>Page 1</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/helblazer2.jpg">
+      <img src="./images/helblazer2.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Hellblazer Volume 2 #13</h2>Page 2</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/hellblazer3.jpg">
+      <img src="./images/hellblazer3.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Hellblazer Volume 2 #13</h2>Page 3</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+</div>
+
+</body>
 </html>
