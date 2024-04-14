@@ -2,24 +2,10 @@
 
 body {
 	background: #000000;
-	font-family: 'Protest Strike', sans-serif;
-	color: #f11712;
-	 font-size: 32px
+	/*font-family: 'Protest Strike', sans-serif;*/
 	}
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-.pot {width: 174px;}
-nav {margin-top: 15px;}
-
-.cap {
-	text-transform: uppercase;
-	/*font-family: 'Protest Strike', sans-serif;*/
-}
+nav {margin-top: 15px; text-transform: uppercase;}
 
 button {font-family: 'Protest Strike', sans-serif;}
 
@@ -29,50 +15,22 @@ button {font-family: 'Protest Strike', sans-serif;}
 	margin: auto;
 	width:  99%;
 	/*padding: 5px;*/
-	color: midnight#0099f7;
-	text-decoration: underline;
-	text-transform: uppercase;
-	 font-size: 32px
+	color: #0099f7;
+	font-size: 32px
   }
 
  figure {
- display: inline-block;
- vertical-align: top;
-}
-img, figcaption {
- vertical-align: bottom;
-	 font-size: 32px
+	 display: inline-block;
+	 vertical-align: top;
 }
 
-.flip {
-  -moz-transform: scale(-1, -1);
-    -o-transform: scale(-1, -1);
-    -webkit-transform: scale(-1, -1);
-    transform: scale(-1, -1);
-}
-figcaption {
- width: 100%;
- display: flex;
- color: #f11712;
- font-family: "Gideon Roman", serif;
- padding-top: 5px;
- text-align: center;
- font-weight: bolder;
-	 font-size: 32px
-}
-.below {color: #f11712;
- font-family: "Gideon Roman", serif;
- padding-top: 5px;
- text-align: center;
- font-weight: bolder;
-        font-size: 32px}
-th {color: #0099f7; font-size: 32px}
-td {align: center;  font-size: 32px}
+
+
+.info {color: #0099f7; font-size: 32px; text-align: end; font-weight: bolder;}
+
 div h1 {
-	text-align: center;
+	text-align: start;
 	text-decoration: underline;
 	text-transform: uppercase;
-	color: #2a52be;
+	color: yellow;
 }
-
-iframe {width: 100%; height: 700px; border: none;}
