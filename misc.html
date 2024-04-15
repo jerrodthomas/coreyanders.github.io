@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -6,8 +7,59 @@
 		<title>artist at large</title>
 		<link rel="stylesheet" href="./style/nav.css">
 		<link rel="stylesheet" href="./style/main.css">
-		<link rel="stylesheet" href="./style/misc.css">
-	</head>
+		<style>
+            
+            div.gallery img {
+                width: 100%;
+                /*height: 400px;*/
+                display: block;
+                /*width: 60%;*/
+                height: 400px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            div.desc {
+                padding: 15px;
+                text-align: center;
+                color: #34f9fe;
+                font-size: 24px;
+                font-weight: bolder;
+            }
+            
+            * {
+                box-sizing: border-box;
+            }
+            
+            .responsive {
+                padding: 0 6px;
+                float: left;
+                width: 24.99999%;
+            }
+            
+            @media only screen and (max-width: 700px) {
+                .responsive {
+                    width: 49.99999%;
+                    margin: 6px 0;
+                }
+}
+            
+            @media only screen and (max-width: 500px) {
+                .responsive {
+                    width: 100%;
+                }
+            }
+            .clearfix:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            
+            h1 {color: yellow;}
+            p {color: blue;}
+        </style>
+    </head>
 	<body>
 		<img src="./images/banner.png" alt="banner" class="center">
 		<nav>
@@ -45,120 +97,1067 @@
 				</div>
 			</div>
 		</nav>
-		<div class="containerw3 containerw3-margin">
-            <img src="https://jerrodthomas.github.io/images/001.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/002.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/003.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/004.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/005.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/006.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/007.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/008.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/009.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/010.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/012.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/013.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/014.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/015.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/016.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/011.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/017.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/018.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/019.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/020.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/021.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/022.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/023.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/024.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/025.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/026.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/027.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/028.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/029.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/030.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/031.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/032.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/033.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/034.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/035.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/036.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/037.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/038.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/039.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/040.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/041.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/042.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/043.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/044.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/045.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/046.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/047.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/048.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/049.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/050.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/051.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/052.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/053.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/054.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/055.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/056.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/057.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/058.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/059.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/060.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/061.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/062.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/063.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/064.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/065.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/images/066.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/067.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/068.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/069.jpg" class="page">
-            <img src="https://jerrodthomas.github.io/070.jpg" class="page">
-           <img src="https://jerrodthomas.github.io/071.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/072.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/073.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/074.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/075.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/076.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/079.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/080.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/081.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/082.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/083.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/084.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/085.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/088.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/089.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/090.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/091.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/092.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/093.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/094.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/095.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/096.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/097.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/098.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/099.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/100.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/101.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/102.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/103.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/104.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/105.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/106.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/107.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/108.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/109.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/110.jpg" class="page">
-			<img src="https://jerrodthomas.github.io/111.jpg" class="page">
-			<img src="./images/titanic1.jpg" class="page">
-			<img src="./images/titanic2.jpg" class="page">
-			<img src="./images/texas.jpg" class="page">			
-			<img src="./images/scarr.jpg" class="page">
-			<img src="./images/stitch.jpg" class="page">
+        <h1>Miscellaneous</h1>
+        <p>Click on image to enlarge.</p>
+		<div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://jerrodthomas.github.io/images/001.jpg">
+				<img class="page" alt="picture" src="https://jerrodthomas.github.io/images/001.jpg">
+				</a>
+                <div class="desc">
+                    Eye
+                </div>
+            </div>
         </div>
-		
-	</body>
+         <div class="responsive">
+			<div class="gallery">
+				<a target="_blank" href="https://jerrodthomas.github.io/images/002.jpg">
+					<img class="page" alt="picture" src="https://jerrodthomas.github.io/images/002.jpg">
+                </a>
+                <div class="desc">
+                    Dick Tracy
+                </div>
+             </div>
+		</div>				
+         <div class="responsive">
+			<div class="gallery">
+				<a target="_blank" href="https://jerrodthomas.github.io/images/003.jpg">
+                    <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/003.jpg">
+                </a>
+                <div class="desc">
+                    Garfield
+                </div>
+             </div>
+		</div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://jerrodthomas.github.io/images/004.jpg">
+                    <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/004.jpg">
+                </a>
+                <div class="desc">
+                    Spawn
+                </div>
+            </div>
+        </div>
+		<div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://jerrodthomas.github.io/images/005.jpg">
+                    <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/005.jpg">
+                </a>
+                <div class="desc">
+                    Spider-Man
+                </div>
+            </div>
+		</div>
+		<div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://jerrodthomas.github.io/images/006.jpg">
+                    <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/006.jpg">
+                </a>
+                <div class="desc">
+                    Superman
+                </div>
+            </div>
+		</div>
+		<div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://jerrodthomas.github.io/images/007.jpg">
+                    <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/007.jpg">
+                </a>
+			<div class="desc">
+                Donald Duck & Pete
+                </div>
+            </div>
+		</div>
+		<div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://jerrodthomas.github.io/images/008.jpg">
+                    <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/008.jpg">
+                </a>
+			<div class="desc">
+                Still life
+                </div>
+            </div>
+		</div>
+		<div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://jerrodthomas.github.io/images/009.jpg">
+                    <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/009.jpg">
+                </a>
+                <div class="desc">
+                    Lara Croft
+                </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://jerrodthomas.github.io/images/010.jpg">
+                    <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/010.jpg">
+                </a>
+                <div class="desc">
+                    Orko
+                </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://jerrodthomas.github.io/images/012.jpg">
+                    <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/012.jpg">
+                </a>
+                <div class="desc">
+                    Joker
+                </div>
+            </div>
+        </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/013.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/013.jpg">
+                    </a>
+                    <div class="desc">
+                        Goslin
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                <a target="_blank" href="https://jerrodthomas.github.io/images/014.jpg">
+                    <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/014.jpg">
+                </a>
+                    <div class="desc">
+                    Lego Batman
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/015.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/015.jpg">
+                    </a>
+                    <div class="desc">
+                        Pooh Bear
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/016.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/016.jpg">
+                    </a>
+                    <div class="desc">
+                        Starfire
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/011.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/011.jpg">
+                    </a>
+                    <div class="desc">
+                        TMNT
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/017.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/017.jpg">
+                    </a>
+                    <div class="desc">
+                        Raphael
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/018.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/018.jpg">
+                    </a>
+                    <div class="desc">
+                        Raphael
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/019.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/019.jpg">
+                    </a>
+                    <div class="desc">
+                        Wind in the Willows
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/020.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/020.jpg">
+                    </a>
+                    <div class="desc">
+                        Harley Quinn
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/021.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/021.jpg">
+                    </a>
+                    <div class="desc">
+                        Wednesday/Deadpool
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/022.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/022.jpg">
+                    </a>
+                    <div class="desc">
+                        Beast Boy
+                    </div>
+                </div>
+        </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/023.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/023.jpg">
+                    </a>
+                    <div class="desc">
+                        Cyclops
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/024.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/024.jpg">
+                    </a>
+                    <div class="desc">
+                        Taran
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/025.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/025.jpg">
+                    </a>
+                    <div class="desc">
+                        Ed
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/026.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/026.jpg">
+                    </a>
+                    <div class="desc">
+                        Keith
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/027.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/027.jpg">
+                    </a>
+                    <div class="desc">
+                        Gruncle Stan
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/028.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/028.jpg">
+                    </a>
+                    <div class="desc">
+                        Joker
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/0029.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/029.jpg">
+                    </a>
+                    <div class="desc">
+                        Frankenberry
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/030.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/030.jpg">
+                    </a>
+                    <div class="desc">
+                        OC
+                    </div>
+                </div>
+        </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/031.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/031.jpg">
+                    </a>
+                    <div class="desc">
+                        Frankenstein's Monster
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/032.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/032.jpg">
+                    </a>
+                    <div class="desc">
+                        Edgar Allen Poe
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/033.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/033.jpg">
+                    </a>
+                    <div class="desc">
+                        Skeletor
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/034.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/034.jpg">
+                    </a>
+                    <div class="desc">
+                        Joker
+                    </div>
+                </div>
+            </div>
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="https://jerrodthomas.github.io/images/035.jpg">
+                            <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/035.jpg">
+                        </a>
+                        <div class="desc">
+                            Two-Face
+                        </div>
+                    </div>
+                </div>
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="https://jerrodthomas.github.io/images/036.jpg">
+                            <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/036.jpg">
+                        </a>
+                        <div class="desc">
+                            Joker 
+                        </div>
+                    </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/037.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/037.jpg">
+                    </a>
+                    <div class="desc">
+                        Joker
+                    </div>
+                </div>
+             </div>
+              <div class="responsive">
+                  <div class="gallery">
+                      <a target="_blank" href="https://jerrodthomas.github.io/images/038.jpg">
+                          <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/038.jpg">
+                      </a>
+                      <div class="desc">
+                          Joker
+                      </div>
+                  </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/039.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/039.jpg">
+                    </a>
+                    <div class="desc">
+                        Mickey Mouse
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/040.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/040.jpg">
+                    </a>
+                    <div class="desc">
+                        OC
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/041.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/041.jpg">
+                    </a>
+                    <div class="desc">
+                        Two-Face
+                    </div>
+                </div>
+           </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/042.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/042.jpg">
+                    </a>
+                    <div class="desc">
+                        Batgirl
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/043.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/043.jpg">
+                    </a>
+                    <div class="desc">
+                        Joker
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/044.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/044.jpg">
+                    </a>
+                    <div class="desc">
+                        Blue Eyes
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/045.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/045.jpg">
+                    </a>
+                    <div class="desc">
+                        Raphael
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/046.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/046.jpg">
+                    </a>
+                    <div class="desc">
+                        Angel Dust
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/047.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/047.jpg">
+                    </a>
+                    <div class="desc">
+                        OC
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/048.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/048.jpg">
+                    </a>
+                    <div class="desc">
+                        OC
+                    </div>
+                </div>
+             </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/049.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/049.jpg">
+                    </a>
+                    <div class="desc">
+                        Fudd & Road Runner
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/050.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/050.jpg">
+                    </a>
+                    <div class="desc">
+                        Jessica Rabbit
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/051.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/051.jpg">
+                    </a>
+                    <div class="desc">
+                        Jessica Rabbit
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/052.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/052.jpg">
+                    </a>
+                    <div class="desc">
+                        Cara Dune 
+                    </div>
+                </div>
+              </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/053.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/053.jpg">
+                    </a>
+                    <div class="desc">
+                        Addams Kids
+                    </div>
+                </div>
+             </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/054.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/054.jpg">
+                    </a>
+                    <div class="desc">
+                        Wednesday
+                    </div>
+                </div>
+             </div>
+             <div class="responsive">
+                 <div class="gallery">
+                     <a target="_blank" href="https://jerrodthomas.github.io/images/055.jpg">
+                         <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/055.jpg">
+                     </a>
+                     <div class="desc">
+                        Wednesday 
+                     </div>
+                 </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/056.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/056.jpg">
+                    </a>
+                    <div class="desc">
+                        Wednesday
+                    </div>
+                </div>
+           </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/057.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/057.jpg">
+                    </a>
+                    <div class="desc">
+                        Jack & Sally 
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/059.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/059.jpg">
+                    </a>
+                    <div class="desc">
+                        Keith 
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/060.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/060.jpg">
+                    </a>
+                    <div class="desc">
+                        Keith 
+                    </div>
+                </div>
+           </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/061.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/061.jpg">
+                    </a>
+                    <div class="desc">
+                        Archie
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/062.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/062.jpg">
+                    </a>
+                    <div class="desc">
+                        Mr. Sinister 
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                 <div class="gallery">
+                     <a target="_blank" href="https://jerrodthomas.github.io/images/063.jpg">
+                         <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/063.jpg">
+                     </a>
+                     <div class="desc">
+                         Ichabod Crane 
+                     </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/064.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/064.jpg">
+                    </a>
+                    <div class="desc">
+                        Eye 
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/065.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/065.jpg">
+                    </a>
+                    <div class="desc">
+                        Still Life 
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/066.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/images/066.jpg">
+                    </a>
+                    <div class="desc">
+                        OC 
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/067.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/067.jpg">
+                    </a>
+                    <div class="desc">
+                        Gruncle Stan 
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/068.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/068.jpg">
+                    </a>
+                    <div class="desc">
+                        Robin Williams 
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/069.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/069.jpg">
+                    </a>
+                    <div class="desc">
+                        Spawn 
+                    </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/images/003.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/070.jpg">
+                    </a>
+                    <div class="desc">
+                        Spider-Man 
+                    </div>
+                </div>
+            </div>
+           <div class="responsive">
+               <div class="gallery">
+                   <a target="_blank" href="https://jerrodthomas.github.io/071.jpg">
+                       <img class="page" alt="picture" src="https://jerrodthomas.github.io/071.jpg">
+                   </a>
+                   <div class="desc">
+                       Twizted 
+                   </div>
+               </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/072.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/072.jpg">
+                    </a>
+                    <div class="desc">
+                        Hiccup/Space Dad 
+                    </div>
+               </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/073.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/073.jpg">
+                    </a>
+                    <div class="desc">
+                        Deadpool 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github/080.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/080.jpg">
+                    </a>
+                    <div class="desc">
+                        Still Life 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github/081.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/081.jpg">
+                    </a>
+                    <div class="desc">
+                        Eye 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github/082.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/082.jpg">
+                    </a>
+                    <div class="desc">
+                        Still Life 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github/083.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/083.jpg">
+                    </a>
+                    <div class="desc">
+                        OC 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github/084.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/084.jpg">
+                    </a>
+                    <div class="desc">
+                        Still Life 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github/085.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/085.jpg">
+                    </a>
+                    <div class="desc">
+                        Still Life
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github/088.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/088.jpg">
+                    </a>
+                    <div class="desc">
+                        Batgirl 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github/089.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/089.jpg">
+                    </a>
+                    <div class="desc">
+                        Rubik's Cube 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/090.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/090.jpg">
+                    </a>
+                    <div class="desc">
+                        Marvel Girl
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github/091.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/091.jpg">
+                    </a>
+                    <div class="desc">
+                        Hand
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/092.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/092.jpg">
+                    </a>
+                    <div class="desc">
+                        Self Portrait
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/093.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/093.jpg">
+                    </a>
+                    <div class="desc">
+                        Figures
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/094.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/094.jpg">
+                    </a>
+                    <div class="desc">
+                        Random Stuff 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/096.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/096.jpg">
+                    </a>
+                    <div class="desc">
+                        Chair 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/097.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/097.jpg">
+                    </a>
+                    <div class="desc">
+                        Randomness
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github/098.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/098.jpg">
+                    </a>
+                    <div class="desc">
+                        Still Life 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/099.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/099.jpg">
+                    </a>
+                    <div class="desc">
+                        Blind Drawing
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/100.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/100.jpg">
+                    </a>
+                    <div class="desc">
+                        Still Life
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/101.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/101.jpg">
+                    </a>
+                    <div class="desc">
+                        Chair 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/102.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/102.jpg">
+                    </a>
+                    <div class="desc">
+                        Self Portrait 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/103.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/103.jpg">
+                    </a>
+                    <div class="desc">
+                        Monster 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/104.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/104.jpg">
+                    </a>
+                    <div class="desc">
+                        Frankenstein's Monster
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/105.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/105.jpg">
+                    </a>
+                    <div class="desc">
+                        Gesture Drawing 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/106.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/106.jpg">
+                    </a>
+                    <div class="desc">
+                        Still Life 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/107.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/107.jpg">
+                    </a>
+                    <div class="desc">
+                        Still Life
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/108.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/108.jpg">
+                    </a>
+                    <div class="desc">
+                        Randomness 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/109.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/109.jpg">
+                    </a>
+                    <div class="desc">
+                        Angriness 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/110.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/110.jpg">
+                    </a>
+                    <div class="desc">
+                        Gray Hulk 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="https://jerrodthomas.github.io/111.jpg">
+                        <img class="page" alt="picture" src="https://jerrodthomas.github.io/111.jpg">
+                    </a>
+                    <div class="desc">
+                        Grandpa Munster 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="./images/titanic1.jpg">
+                        <img class="page" alt="picture" src="./images/titanic1.jpg">
+                    </a>
+                    <div class="desc">
+                        Titanic Bow 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="./images/titanic2.jpg">
+                        <img class="page" alt="picture" src="./images/titanic2.jpg">
+                    </a>
+                    <div class="desc">
+                        Titanic Stern 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="./images/texas.jpg">
+                        <img class="page" alt="picture" src="./images/texas.jpg">
+                    </a>
+                    <div class="desc">
+                        USS Texas 
+                    </div>
+                </div>
+             </div>			
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="./images/scarr.jpg">
+                        <img class="page" alt="picture" src="./images/scarr.jpg">
+                    </a>
+                    <div class="desc">
+                        Scar 
+                    </div>
+                </div>
+            </div>
+			<div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href=="./images/stitch.jpg">
+                        <img class="page" alt="picture" src="./images/stitch.jpg">
+                    </a>
+                    <div class="desc">
+                        Stitch
+                    </div>
+                </div>
+            </div>
+    </body>
 </html>
