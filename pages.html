@@ -6,98 +6,20 @@
 		<title>artist at large</title>
 		<link rel="stylesheet" href="./style/nav.css">
 		<link rel="stylesheet" href="./style/main.css">
-		<style>
-            
-            div.gallery img {
-                width: 100%;
-                /*height: 400px;*/
-                display: block;
-                /*width: 60%;*/
-                height: 400px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            
-            div.desc {
-                padding: 15px;
-                text-align: center;
-                color: #34f9fe;
-                font-size: 24px;
-                font-weight: bolder;
-            }
-            
-            * {
-                box-sizing: border-box;
-            }
-            
-            .responsive {
-                padding: 0 6px;
-                float: left;
-                width: 24.99999%;
-            }
-            
-            @media only screen and (max-width: 700px) {
-                .responsive {
-                    width: 49.99999%;
-                    margin: 6px 0;
-                }
-}
-            
-            @media only screen and (max-width: 500px) {
-                .responsive {
-                    width: 100%;
-                }
-            }
-            .clearfix:after {
-                content: "";
-                display: table;
-                clear: both;
-            }
-            
-            .issue {color: #ffed10; margin-left: 15px; font-size: 10px;}
-            h1 {color: #ffed10; margin-left: 15px;}
-            h2 {font-size: 20px;}
-            h3 {color: #f11712; font-size: 20px;}
-        </style>
+        <link rel="stylesheet" href="./style/other.css">
     </head>
 	<body>
         <img src="./images/banner.png" alt="banner" class="center">
-        <nav>
-            <div class="navbar">
-				<a href="index.html" class="cap">Home</a>
-				<a href="about.html" class="cap">About</a>
-				<div class="dropdown">
-					<button class="dropbtn cap">artwork
-						<i class="fa fa-caret-down"></i>
-					</button>
-					<div class="dropdown-content">
-						<a href="pages.html">Pages</a>
-						<a href="covers.html">Covers</a>
-						<a href="pinups.html">Pinups</a>
-						<a href="misc.html">Miscellaneous</a>
-					</div>
-				</div>
-				<div class="dropdown">
-					<button class="dropbtn cap">comics
-						<i class="fa fa-caret-down"></i>
-					</button>
-					<div class="dropdown-content">
-						<a href="sticks.html">Out in the Sticks</a>
-					</div>
-				</div>
-					<div class="dropdown">
-					<button class="dropbtn cap">art tips
-						<i class="fa fa-caret-down"></i>
-					</button>
-					<div class="dropdown-content">
-						<a href="https://theetheringtonbrothers.blogspot.com/p/every-how-to-think-when-you-draw.html" target="think">How to Think When You Draw</a>
-						<a href="https://www.youtube.com/watch?v=gvyC7uRpeK4&list=PLaVuf4XNHHvW0T6IK5IuWsVckvKyEoQ2X" target="tips">Todd McFarlane's Tips</a>
-						
-					</div>
-				</div>
-			</div>
-		</nav>
+        <ol class="bad">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mailto:anderscorey0@gmail.com">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="pages.html" class="active">Pages</a></li>
+            <li><a href="covers.html">Covers</a></li>
+            <li><a href="pinups.html">Pinups</a></li>
+            <li><a href="misc.html">Miscellaneous</a></li>
+            <li><a href="sticks.html">Out in the Sticks</a></li>
+        </ol>
         <h1>PAGES</h1>
         <div class="responsive">
             <div class="gallery">
@@ -144,57 +66,84 @@
                 </div>
             </div>
         </div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./images/dcpage4.jpg">
-      <img src="./images/dcpage4.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc"><h2>Detective Comics 732</h2><h3>Page 4</h3></div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./images/dcpage5.jpg">
-      <img src="./images/dcpage5.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc"><h2>Detective Comics 732</h2><h3>Page 5</h3></div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./images/hellblazer1.jpg">
-      <img src="./images/hellblazer1.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc"><h2>Hellblazer Volume 2 #13</h2><h3>Page 1</h3></div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./images/helblazer2.jpg">
-      <img src="./images/helblazer2.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc"><h2>Hellblazer Volume 2 #13</h2><h3>Page 2</h3></div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./images/hellblazer3.jpg">
-      <img src="./images/hellblazer3.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc"><h2>Hellblazer Volume 2 #13</h2><h3>Page 3</h3></div>
-  </div>
-</div>
-
-<div class="clearfix"></div>
-
-<div style="padding:6px;">
-  
-</div>
-
-</body>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="./images/dcpage4.jpg">
+                    <img src="./images/dcpage4.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">
+                    <h2>
+                        Detective Comics 732
+                    </h2>
+                    <h3>
+                        Page 4
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="./images/dcpage5.jpg">
+                    <img src="./images/dcpage5.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">
+                    <h2>
+                        Detective Comics 732
+                    </h2>
+                    <h3>
+                        Page 4
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="./images/hellblazer1.jpg">
+                    <img src="./images/hellblazer1.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">
+                    <h2>
+                        Hellblazer 13
+                    </h2>
+                    <h3>
+                        Page 1
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="./images/helblazer2.jpg">
+                    <img src="./images/helblazer2.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">
+                    <h2>
+                        Hellblazer 13
+                    </h2>
+                    <h3>
+                        Page 2
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="./images/hellblazer3.jpg">
+                    <img src="./images/hellblazer3.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">
+                    <h2>
+                        Hellblazer 13
+                    </h2>
+                    <h3>
+                        Page 3
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix">
+        </div>
+        <div style="padding:6px;">
+        </div>
+    </body>
 </html>
