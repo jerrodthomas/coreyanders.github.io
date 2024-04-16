@@ -1,64 +1,65 @@
 <!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="./style/nav.css">
+<html lang="fr">
+    <head>
+		<meta charset="UTF-8">
+  		<meta name="viewport" content="width=device-width">
+		<title>artist at large</title>
+		<link rel="stylesheet" href="./style/nav.css">
 		<link rel="stylesheet" href="./style/main.css">
-<style>
-body {color: #34f9fe;}
-div.gallery {
-  /*border: 1px solid #ccc;*/
+		<style>
+            
+            div.gallery img {
+                width: 100%;
+                /*height: 400px;*/
+                display: block;
+                /*width: 60%;*/
+                height: 400px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            div.desc {
+                padding: 15px;
+                text-align: center;
+                color: #34f9fe;
+                font-size: 24px;
+                font-weight: bolder;
+            }
+            
+            * {
+                box-sizing: border-box;
+            }
+            
+            .responsive {
+                padding: 0 6px;
+                float: left;
+                width: 24.99999%;
+            }
+            
+            @media only screen and (max-width: 700px) {
+                .responsive {
+                    width: 49.99999%;
+                    margin: 6px 0;
+                }
 }
-
-div.gallery:hover {
-  /*border: 1px solid #777;*/
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-  color: #e20025;
-  font-weight: bolder;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-h1 {color: #ffed10; margin-left: 15px;}
-h2 {color: #34f9fe;}
-</style>
-</head>
-<body>
+            
+            @media only screen and (max-width: 500px) {
+                .responsive {
+                    width: 100%;
+                }
+            }
+            .clearfix:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            
+            h1 {color: #ffed10; margin-left: 15px;}
+            p {color: #34f9fe; margin-left: 15px;}
+        </style>
+    </head>
+	<body>
 <img src="./images/banner.png" alt="banner" class="center">
 <nav>
 			<div class="navbar">
@@ -95,85 +96,58 @@ h2 {color: #34f9fe;}
 				</div>
 			</div>
 		</nav>
-<h1>PINUPS</h1>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./images/gein01.jpg">
-      <img src="./images/gein01.jpg" alt="Cinque Terre" width="600" height="400">
-    </a>
-    <div class="desc"><h2>Ed Gein</h2></div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./images/gein02.jpg">
-      <img src="./images/gein02.jpg" alt="Forest" width="600" height="400">
-    </a>
-    <div class="desc"><h2>Ed Gein</h2></div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./images/violator.jpg">
-      <img src="./images/violator.jpg" alt="Northern Lights" width="600" height="400">
-    </a>
-    <div class="desc"><h2>Violator</h2></div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./images/clown.jpg">
-      <img src="./images/clown.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc"><h2>Violator</h2></div>
-  </div>
-</div>
-<!--
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./images/scarr.jpg">
-      <img src="./images/scarr.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc"><h2>Scar</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./images/stitch.jpg">
-      <img src="./images/stitch.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc"><h2>Stitch</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./images/titanic1.jpg">
-      <img src="./images/titanic1.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc"><h2>Titanic Stern</h2></div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./images/titanic2.jpg">
-      <img src="./images/titanic2.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc"><h2>Titanic Stern</h2></div>
-  </div>
-</div>-->
-
-<div class="clearfix"></div>
-
-<div style="padding:6px;">
-  &nbsp;
-</div>
-
-</body>
+        <h1>PINUPS</h1>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="./images/gein01.jpg">
+                    <img src="./images/gein01.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+                <div class="desc">
+                    <h2>Ed Gein</h2>
+                </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="./images/gein02.jpg">
+                <img src="./images/gein02.jpg" alt="Forest" width="600" height="400">
+                </a>
+                <div class="desc"><h2>Ed Gein</h2></div>
+            </div>
+         </div>
+         <div class="responsive">
+             <div class="gallery">
+                 <a target="_blank" href="./images/violator.jpg">
+                     <img src="./images/violator.jpg" alt="Northern Lights" width="600" height="400">
+                 </a>
+                 <div class="desc">
+                     <h2>Violator</h2>
+                 </div>
+             </div>
+        </div>
+        <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href="./images/clown.jpg">
+                  <img src="./images/clown.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">
+                    <h2>Violator</h2>
+                  </div>
+              </div>
+            </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="./images/madelyn.jpg">
+                    <img src="./images/madelyn.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">
+                    <h2>Madelyn Pryor</h2>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div style="padding:6px;">
+            &nbsp;
+        </div>
+    </body>
 </html>
