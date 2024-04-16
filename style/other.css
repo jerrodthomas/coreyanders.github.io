@@ -50,3 +50,6 @@ div.gallery img {
             h1 {color: #ffed10; margin-left: 15px;}
             h2 {font-size: 20px;}
             h3 {color: #f11712; font-size: 20px;}
+
+ul {list-style-type: none; }
+ol {list-style-type: none; }
