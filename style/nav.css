@@ -35,4 +35,9 @@ ol li a:hover {
     text-transform: uppercase; 
 }
 
-margin-left: 15apx;
+.bad {
+    width: 850px;
+    margin-left: 250px;
+    margin-right: auto;
+    padding-bottom: 25px;
+}
