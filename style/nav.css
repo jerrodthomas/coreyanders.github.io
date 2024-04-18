@@ -42,4 +42,12 @@ ol li a:hover {
     padding-bottom: 25px;
 }
 
-.mcu {text-align: center;}
+.mcu {
+    font-family: "Anton", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: -2px 2px red;
+    
+}
