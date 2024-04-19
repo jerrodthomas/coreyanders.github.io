@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="./style/nav.css">
+		<link rel="stylesheet" href="./style/main.css">
+<style>
+body {color: #0060aa;}
+div.gallery {
+  /*border: 1px solid #ccc;*/
+}
+
+div.gallery:hover {
+  /*border: 1px solid #777;*/
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #e20025;
+  font-weight: bolder;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {color: #ffed10;}
+h2 {color: #0060aa;}
+</style>
+</head>
+<body>
+<img src="./images/banner.png" alt="banner" class="center">
+<nav>
+			<div class="navbar">
+				<a href="index.html" class="cap">Home</a>
+				<a href="#home" class="cap">About</a>
+				<div class="dropdown">
+					<button class="dropbtn cap">artwork
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="#">Pages</a>
+						<a href="covers.html">Covers</a>
+						<a href="pinups.html">Pinups</a>
+						<a href="misc.html">Miscellaneous</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn cap">comics
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="sticks.html">Out in the Sticks</a>
+					</div>
+				</div>
+					<div class="dropdown">
+					<button class="dropbtn cap">art tips
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="https://theetheringtonbrothers.blogspot.com/p/every-how-to-think-when-you-draw.html" target="think">How to Think When You Draw</a>
+						<a href="https://www.youtube.com/watch?v=gvyC7uRpeK4&list=PLaVuf4XNHHvW0T6IK5IuWsVckvKyEoQ2X" target="tips">Todd McFarlane's Tips</a>
+						
+					</div>
+				</div>
+			</div>
+		</nav>
+<h1>PAGES</h1>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/dcpage1.jpg">
+      <img src="./images/dcpage1.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Detective Comics 732</h2>Page 1</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/dcpage2.jpg">
+      <img src="./images/dcpage2.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Detective Comics 732</h2>Page 2</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/dcpage3.jpg">
+      <img src="./images/dcpage3.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Detective Comics 732</h2>Page 3</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/dcpage4.jpg">
+      <img src="./images/dcpage4.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Detective Comics 732</h2>Page 4</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/dcpage5.jpg">
+      <img src="./images/dcpage5.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Detective Comics 732</h2>Page 5</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/hellblazer1.jpg">
+      <img src="./images/hellblazer1.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Hellblazer Volume 2 #13</h2>Page 1</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/helblazer2.jpg">
+      <img src="./images/helblazer2.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Hellblazer Volume 2 #13</h2>Page 2</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./images/hellblazer3.jpg">
+      <img src="./images/hellblazer3.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"><h2>Hellblazer Volume 2 #13</h2>Page 3</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+</div>
+
+</body>
+</html>
