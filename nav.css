@@ -1,0 +1,55 @@
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #060709;
+}
+
+ol li {float: left;}
+
+ol li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+ol li a:hover {
+    border-bottom: 1px solid #f11712;
+    color: #34f9fe;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+            
+.bio {
+    margin-left: 215px; 
+    margin-top: -225px;
+}
+
+.active {
+    border-bottom: 1px solid #34f9fe; 
+    color: #f11712; 
+    font-weight: bolder; 
+    text-transform: uppercase; 
+}
+
+.bad {
+    width: 850px;
+    margin-left: 250px;
+    margin-right: auto;
+    padding-bottom: 25px;
+}
+
+.mcu {
+    font-family: "Anton", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: -2px 2px red;
+    
+}
+
+#banner {padding-bottom: 0;}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Protest+Strike&display=swap');
+
+body {
+	background: #060709;
+	/*font-family: 'Protest Strike', sans-serif;*/
+	}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 50%;*/
+}
+
+nav {margin-top: 15px; text-transform: uppercase;}
+
+button {font-family: 'Protest Strike', sans-serif;}
+
+.pot {height: 250px;}
+
+.page {height: 500px; display: block;}
+
+.art {
+	margin: auto;
+	width:  99%;
+	/*padding: 5px;*/
+	color: #0099f7;
+	font-size: 32px
+  }
+
+ figure {
+	 display: inline-block;
+	 vertical-align: top;
+}
+
+
+
+.info {color: #0099f7; font-size: 32px; text-align: end; font-weight: bolder;}
+
+div h1 {
+	text-align: start;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: yellow;
+}
+
+th {text-align: center;}
+td {text-align: center;}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.issue {color: red;}
