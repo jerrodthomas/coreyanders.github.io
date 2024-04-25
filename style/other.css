@@ -39,6 +39,7 @@ div.desc {
     .responsive {
         width: 100%;
     }
+    .ton {display: none;}
 }
 
 .clearfix:after {
