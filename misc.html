@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -7,64 +8,28 @@
 		<link rel="stylesheet" href="./style/nav.css">
 		<link rel="stylesheet" href="./style/main.css">
 		<style>
-            
-            div.gallery img {
-                width: 100%;
-                /*height: 400px;*/
-                display: block;
-                width: auto;
-                height: 250px;
+            .flex-container {
                 display: flex;
-                align-items: center;
-                justify-content: center;
+                flex-wrap: nowrap;
             }
-            .page {width: 600px;}
-            div.desc {
-                padding: 15px;
+            
+            .flex-container > div {
+                width: 100px;
+                margin: 10px;
                 text-align: center;
-                color: #34f9fe;
-                font-size: 24px;
-                font-weight: bolder;
-            }
-            
-            * {
-                box-sizing: border-box;
-            }
-            
-            .responsive {
-                padding: 0 6px;
-                float: left;
-                /*width: 24.99999%;*/
-                margin-left: 15px;
-                max-width: fit-content;
-            }
-            
-            @media only screen and (max-width: 700px) {
-                .responsive {
-                    width: 49.99999%;
-                    margin: 6px 0;
-                }
-}
-            
-            @media only screen and (max-width: 500px) {
-                .responsive {
-                    width: 100%;
-                }
-            }
-            .clearfix:after {
-                content: "";
-                display: table;
-                clear: both;
+                line-height: 75px;
+                font-size: 30px;
             }
             
             .issue {color: #ffed10; margin-left: 15px; font-size: 10px;}
             h1 {color: #f11712; margin-left: 15px;}
             h2 {font-size: 20px;}
             h3 {color: #f11712; font-size: 20px;}
+            img {height: 300px;}
         </style>
     </head>
 	<body>
-        <img src="https://coreyanders.github.io/images/banner.png" alt="banner" class="center">
+        <img src="./images/banner.png" alt="banner" class="center">
         <ol class="bad">
             <li><a href="index.html">Home</a></li>
             <li><a href="mailto:anderscorey0@gmail.com">Contact</a></li>
@@ -77,767 +42,136 @@
         </ol>
         <h1 class="mcu">Miscellaneous</h1>
         <p>Click on image to enlarge.</p>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/cap.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/cap.jpg">
-                </a>
-                <div class="desc">
-                    Captain America 
-                </div>
-            </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/032.jpg">
+            <img alt="picture" class="picture" src="./images/angeldust.jpg">
+            <img alt="picture" class="picture" src="./images/anime01.jpg">
+            <img alt="picture" class="picture" src="./images/archie.jpg">
+            <img alt="picture" class="picture" src="./images/blind.jpg">
+            <img alt="picture" class="picture" src="./images/bug01.jpg">
         </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/hulk01.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/hulk01.jpg">
-                </a>
-                <div class="desc">
-                    Gray Hulk 
-                </div>
-            </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/cap.jpg">
+            <img alt="picture" class="picture" src="./images/cara.jpg">
+            <img alt="picture" class="picture" src="./images/chair.jpg">
+            <img alt="picture" class="picture" src="./images/contour.jpg">
+            <img alt="picture" class="picture" src="./images/daffy.png">
         </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/groot02.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/groot02.jpg">
-                </a>
-                <div class="desc">
-                    Groot
-                </div>
-            </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/darkwing.jpg">
+            <img alt="picture" class="picture" src="./images/dogs.jpg">
+            <img alt="picture" class="picture" src="./images/donald.jpg">
         </div>
-        <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/wednesday01.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/wednesday01.jpg">
-                    </a>
-                    <div class="desc">
-                        Wednesday
-                    </div>
-                </div>
-             </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/groot01.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/groot01.jpg">
-                </a>
-                <div class="desc">
-                    Groot
-                </div>
-            </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/dp01.jpg">
+            <img alt="picture" class="picture" src="./images/elmer.jpg">
+            <img alt="picture" class="picture" src="./images/eye01.jpg">
+             <img alt="picture" class="picture" src="./images/eye02.jpg">
         </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/nmbc.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/nmbc.jpg">
-                </a>
-                <div class="desc">
-                    Jack &amp; Sally 
-                </div>
-            </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/fanken01.jpg">
+            <img alt="picture" class="picture" src="./images/figures.jpg">
+            <img alt="picture" class="picture" src="./images/frankenberry.jpg">
+            <img alt="picture" class="picture" src="./images/garfield.jpg">
+            <img alt="picture" class="picture" src="./images/grandpa.jpg">
         </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/hangman.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/hangman.jpg">
-                </a>
-                <div class="desc">
-                    Hanged Man 
-                </div>
-            </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/groot01.jpg">
+            <img alt="picture" class="picture" src="./images/groot02.jpg">
+            <img alt="picture" class="picture" src="./images/hangman.jpg">
+            <img alt="picture" class="picture" src="./images/harley01.jpg">
+            <img alt="picture" class="picture" src="./images/harley02.jpg">
         </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/bug01.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/bug01.jpg">
-                </a>
-                <div class="desc">
-                    Bug 
-                </div>
-            </div>
-           </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/harley01.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/harley01.jpg">
-                </a>
-                <div class="desc">
-                    Harley Quinn
-                </div>
-            </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/Harley03.jpg">
+            <img alt="picture" class="picture" src="./images/hulk01.jpg">
+            <img alt="picture" class="picture" src="./images/ichabod.jpg">
+            <img alt="picture" class="picture" src="./images/joker001.jpg">
+            <img alt="picture" class="picture" src="./images/joker02.jpg">
         </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/062.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/sinister.jpg">
-                </a>
-                <div class="desc">
-                    Mr. Sinister 
-                </div>
-            </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/joker03.jpg">
+            <img alt="picture" class="picture" src="./images/joker04.jpg">
+            <img alt="picture" class="picture" src="./images/joker05.jpg">
+            <img alt="picture" class="picture" src="./images/joker06.jpg">
+            <img alt="picture" class="picture" src="./images/joker07.jpg">
         </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/sl01.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/sl01.jpg">
-                </a>
-			<div class="desc">
-                Still life
-                </div>
-            </div>
-		</div>
-		<div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/harley02.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/harley02.jpg">
-                </a>
-                <div class="desc">
-                    Harley Quinn
-                </div>
-            </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/kieth01.jpg">
+            <img alt="picture" class="picture" src="./images/kieth02.jpg">
+            <img alt="picture" class="picture" src="./images/marvel.jpg">
+            <img alt="picture" class="picture" src="./images/marvin.jpg">
+            <img alt="picture" class="picture" src="./images/mickey.jpg">
         </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/joker07.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/joker07.jpg">
-                </a>
-                <div class="desc">
-                    Joker
-                </div>
-            </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/nmbc.jpg">
+            <img alt="picture" class="picture" src="./images/oc01.jpg">
+            <img alt="picture" class="picture" src="./images/oc02.jpg">
+            <img alt="picture" class="picture" src="./images/oc05.jpg">
+            <img alt="picture" class="picture" src="./images/orko.jpg">
         </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/joker001.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/joker001.jpg">
-                </a>
-                <div class="desc">
-                    Joker
-                </div>
-            </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/phooey.jpg">
+            <img alt="picture" class="picture" src="./images/poe.jpg"> 
+            <img alt="picture" class="picture" src="./images/pooh.jpg">
         </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/joker02.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/joker02.jpg">
-                    </a>
-                    <div class="desc">
-                        Joker
-                    </div>
-                </div>
-            </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/joker03.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/joker03.jpg">
-                </a>
-                <div class="desc">
-                    Joker
-                </div>
-            </div>
-            </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/joker04.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/joker04.jpg">
-                </a>
-                <div class="desc">
-                    Joker
-                </div>
-            </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/random01.jpg">
+            <img alt="picture" class="picture" src="./images/random02.jpg">
+            <img alt="picture" class="picture" src="./images/random04.jpg">
         </div>
-         <div class="responsive">
-              <div class="gallery">
-                  <a target="art" href="https://coreyanders.github.io/images/joker05.jpg">
-                      <img alt="picture" class="picture" src="https://coreyanders.github.io/images/joker05.jpg">
-                  </a>
-                  <div class="desc">
-                      Joker
-                  </div>
-              </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/raph01.jpg">
+            <img alt="picture" class="picture" src="./images/robin.jpg">
+            <img alt="picture" class="picture" src="./images/roger.jpg">
+            <img alt="picture" class="picture" src="./images/rubik.jpg">
         </div>
-        <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/joker06.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/joker06.jpg">
-                    </a>
-                    <div class="desc">
-                        Joker
-                    </div>
-                </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/scarr.jpg">
+            <img alt="picture" class="picture" src="./images/self01.jpg">
+            <img alt="picture" class="picture" src="./images/shiro.jpg">
+            <img alt="picture" class="picture" src="./images/sinister.jpg">
+            <img alt="picture" class="picture" src="./images/sl01.jpg">
         </div>
-        <div class="responsive">
-             <div class="gallery">
-                 <a target="art" href="https://coreyanders.github.io/images/batgirl01.jpg">
-                     <img alt="picture" class="picture" src="https://coreyanders.github.io/images/batgirl01.jpg">
-                 </a>
-                 <div class="desc">
-                     Batgirl
-                 </div>
-             </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/sl02.jpg">
+            <img alt="picture" class="picture" src="./images/sl03.jpg">
+            <img alt="picture" class="picture" src="./images/sl04.jpg">
+            <img alt="picture" class="picture" src="./images/space.jpg">
+            <img alt="picture" class="picture" src="./images/spawn.jpg">
         </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github/darkwing.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/darkwing.jpg">
-                </a>
-                <div class="desc">
-                    Darkwing 
-                </div>
-            </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/spawn02.jpg">
+            <img alt="picture" class="picture" src="./images/speedy.jpg">
+            <img alt="picture" class="picture" src="./images/spide01.jpg">
+            <img alt="picture" class="picture" src="./images/stan01.jpg">
+            <img alt="picture" class="picture" src="./images/stitch.jpg">
         </div>
-        <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/mickey.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/mickey.jpg">
-                    </a>
-                    <div class="desc">
-                        Mickey
-                    </div>
-                </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/supes.jpg">
+            <img alt="picture" class="picture" src="./images/symbiote.jpg">
+            <img alt="picture" class="picture" src="./images/texas.jpg">
         </div>
-        <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/self01.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/self01.jpg">
-                    </a>
-                    <div class="desc">
-                        Self Portrait 
-                    </div>
-                </div>
-            </div>
-        <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/speedy.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/speedy.jpg">
-                    </a>
-                    <div class="desc">
-                        Speedy &amp; Taz 
-                    </div>
-                </div>
-            </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/marvin.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/marvin.jpg">
-                </a>
-                <div class="desc">
-                    Marvin the Martian
-                </div>
-            </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/tf01.jpg">
+            <img alt="picture" class="picture" src="./images/tf02.jpg">
+            <img alt="picture" class="picture" src="./images/tigger.jpg">
         </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/spawn.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/spawn.jpg">
-                </a>
-                <div class="desc">
-                    Spawn
-                </div>
-            </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/titanic1.jpg">
+            <img alt="picture" class="picture" src="./images/titanic2.jpg">
         </div>
-        <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/sl02.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/sl02.jpg">
-                    </a>
-                    <div class="desc">
-                        Still life
-                    </div>
-                </div>
-            </div>
-        <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/eye01.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/eye01.jpg">
-                    </a>
-                    <div class="desc">
-                        Blue Eyes
-                    </div>
-                </div>
-            </div>
-            <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/angeldust.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/angeldust.jpg">
-                    </a>
-                    <div class="desc">
-                        Angel Dust
-                    </div>
-                </div>
-            </div>
-            <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/oc02.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/oc02.jpg">
-                    </a>
-                    <div class="desc">
-                        OC
-                    </div>
-                </div>
-            </div>
-        <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/cara.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/cara.jpg">
-                    </a>
-                    <div class="desc">
-                        Cara Dune 
-                    </div>
-                </div>
-              </div>
-            
-            <div class="responsive">
-                 <div class="gallery">
-                     <a target="art" href="https://coreyanders.github.io/images/sl05.jpg">
-                         <img alt="picture" class="picture" src="https://coreyanders.github.io/images/sl05.jpg">
-                     </a>
-                     <div class="desc">
-                         Still Life
-                     </div>
-                </div>
-            </div>
-        <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github/089.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/rubik.jpg">
-                    </a>
-                    <div class="desc">
-                        Rubik's Cube 
-                    </div>
-                </div>
-            </div>
-			<div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/marvel.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/marvel.jpg">
-                    </a>
-                    <div class="desc">
-                        Marvel Girl
-                    </div>
-                </div>
-            </div>
-			<div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github/under.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/under.jpg">
-                    </a>
-                    <div class="desc">
-                        Under Dog
-                    </div>
-                </div>
-            </div>
-			<div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/uncle.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/uncle.jpg">
-                    </a>
-                    <div class="desc">
-                        Uncle Scrooge
-                    </div>
-                </div>
-            </div>
-			<div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/figures.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/figures.jpg">
-                    </a>
-                    <div class="desc">
-                        Figures
-                    </div>
-                </div>
-            </div>
-			<div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/random02.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/random02.jpg">
-                    </a>
-                    <div class="desc">
-                        Random Stuff 
-                    </div>
-                </div>
-            </div>
-            <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/wednesday02.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/wednesday02.jpg">
-                    </a>
-                    <div class="desc">
-                        Wednesday
-                    </div>
-                </div>
-            </div>
-            <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/oc01.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/oc01.jpg">
-                    </a>
-                    <div class="desc">
-                        OC 
-                    </div>
-                </div>
-            </div>
-        <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/chair.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/chair.jpg">
-                    </a>
-                    <div class="desc">
-                        Chair 
-                    </div>
-                </div>
-            </div>
-            <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/spide01.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/spide01.jpg">
-                    </a>
-                    <div class="desc">
-                        Spider-Man 
-                    </div>
-                </div>
-            </div>
-           <div class="responsive">
-               <div class="gallery">
-                   <a target="art" href="https://coreyanders.github.io/images/twizted.jpg">
-                       <img alt="picture" class="picture" src="https://coreyanders.github.io/images/twizted.jpg">
-                   </a>
-                   <div class="desc">
-                       Twizted 
-                   </div>
-               </div>
-            </div>
-			<div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/space.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/space.jpg">
-                    </a>
-                    <div class="desc">
-                        Hiccup/Space Dad 
-                    </div>
-               </div>
-            </div>
-			<div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github/sl02.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/sl03.jpg">
-                    </a>
-                    <div class="desc">
-                        Still Life 
-                    </div>
-                </div>
-            </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/shiro.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/shiro.jpg">
-                </a>
-                <div class="desc">
-                    Shiro
-                </div>
-            </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/tmnt01.jpg">
+            <img alt="picture" class="picture" src="./images/toons041.jpg">
+            <img alt="picture" class="picture" src="./images/tracy01.jpg">
         </div>
-			<div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github/sl04.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/sl04.jpg">
-                    </a>
-                    <div class="desc">
-                        Still Life 
-                    </div>
-                </div>
-            </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/blind.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/blind.jpg">
-                </a>
-                <div class="desc">
-                    Blind Drawing
-                </div>
-            </div>
-        </div>
-        <div class="responsive">
-              <div class="gallery">
-                  <a target="art" href="https://coreyanders.github.io/images/grandpa.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/grandpa.jpg">
-                 </a>
-                 <div class="desc">
-                     Grandpa
-                </div>
-            </div>
-        </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/scarr.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/scarr.jpg">
-                </a>
-                <div class="desc">
-                    Scar 
-                </div>
-            </div>
-        </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/stitch.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/stitch.jpg">
-                </a>
-                <div class="desc">
-                    Stitch
-                </div>
-            </div>
-        </div>
-        <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/fanken01.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/fanken01.jpg">
-                    </a>
-                    <div class="desc">
-                        Frankenstein
-                    </div>
-                </div>
-            </div><!--
-            <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/032.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/032.jpg">
-                    </a>
-                    <div class="desc">
-                        Edgar Allen Poe
-                    </div>
-                </div>
-            </div>-->
-        <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/stan01.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/stan01.jpg">
-                    </a>
-                    <div class="desc">
-                        Gruncle Stan
-                    </div>
-                </div>
-            </div>
-        <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/pooh.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/pooh.jpg">
-                    </a>
-                    <div class="desc">
-                        Pooh Bear
-                    </div>
-                </div>
-            </div>
-        <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/raph01.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/raph01.jpg">
-                    </a>
-                    <div class="desc">
-                        Raphael
-                    </div>
-                </div>
-            </div>
-             <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/anime01.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/anime01.jpg">
-                    </a>
-                    <div class="desc">
-                        Soul Eater
-                    </div>
-                </div>
-            </div>
-        <div class="responsive">
-			<div class="gallery">
-				<a target="art" href="https://coreyanders.github.io/images/tracy.jpg">
-					<img alt="picture" class="picture" src="https://coreyanders.github.io/images/tracy.jpg">
-                </a>
-                <div class="desc">
-                    Dick Tracy
-                </div>
-             </div>
-		</div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/tf01.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/tf01.jpg">
-                </a>
-                <div class="desc">
-                    Two-Face
-                </div>
-            </div>
-        </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/tf02.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/tf02.jpg">
-                </a>
-                <div class="desc">
-                    Two-Face
-                </div>
-            </div>
-        </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/tigger.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/tigger.jpg">
-                </a>
-                <div class="desc">
-                    Tigger
-                </div>
-            </div>
-        </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/frankenberry.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/frankenberry.jpg">
-                </a>
-                <div class="desc">
-                    Frankenberry
-                </div>
-            </div>
-        </div>
-        <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/tmnt01.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/tmnt01.jpg">
-                    </a>
-                    <div class="desc">
-                        TMNT
-                    </div>
-                </div>
-            </div>
-        <div class="responsive">
-               <div class="gallery">
-                   <a target="art" href="https://coreyanders.github.io/images/random03.jpg">
-                       <img alt="picture" class="picture" src="https://coreyanders.github.io/images/random03.jpg">
-                   </a>
-                   <div class="desc">
-                       Monster 
-                   </div>
-              </div>
-         </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/texas.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/texas.jpg">
-                </a>
-                <div class="desc">
-                    USS Texas 
-                </div>
-            </div>
-         </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/titanic1.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/titanic1.jpg">
-                </a>
-                <div class="desc">
-                    Titanic Bow 
-                </div>
-            </div>
-        </div>
-		<div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/titanic2.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/titanic2.jpg">
-                </a>
-                <div class="desc">
-                    Titanic Stern 
-                </div>
-            </div>
-        </div>
-        
-        <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github/random04.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/random04.jpg">
-                    </a>
-                    <div class="desc">
-                        Randomness 
-                    </div>
-                </div>
-            </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/texas.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/random01.jpg">
-                </a>
-                <div class="desc">
-                    Randomness
-                </div>
-            </div>
-         </div>
-        <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/daffy.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/daffy.jpg">
-                    </a>
-                    <div class="desc">
-                        Daffy
-                    </div>
-                </div>
-            </div>
-			<div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/phoeey.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/phooey.jpg">
-                    </a>
-                    <div class="desc">
-                        Hong Kong Fuey
-                    </div>
-                </div>
-            </div>
-         <div class="responsive">
-			<div class="gallery">
-				<a target="art" href="https://coreyanders.github.io/images/roger.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/roger.jpg">
-                </a>
-                <div class="desc">
-                    Roger Rabbit
-                </div>tw
-             </div>
-		</div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/dogs.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/dogs.jpg">
-                </a>
-                <div class="desc">
-                Dogs
-                </div>
-            </div>
-        </div>
-            <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/elmer.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/elmer.jpg">
-                    </a>
-                    <div class="desc">
-                        Elmer Fudd
-                    </div>
-                </div>
-            </div>
-        <div class="responsive">
-                <div class="gallery">
-                    <a target="art" href="https://coreyanders.github.io/images/dp01.jpg">
-                        <img alt="picture" class="picture" src="https://coreyanders.github.io/images/dp01.jpg">
-                    </a>
-                    <div class="desc">
-                        Deadpool 
-                    </div>
-                </div>
-            </div>
-        <div class="responsive">
-            <div class="gallery">
-                <a target="art" href="https://coreyanders.github.io/images/toons041.jpg">
-                    <img alt="picture" class="picture" src="https://coreyanders.github.io/images/toons041.jpg">
-                </a>
-			<div class="desc">
-                Toons
-                </div>
-            </div>
+        <div class="flex-container">
+            <img alt="picture" class="picture" src="./images/uncle.jpg">
+            <img alt="picture" class="picture" src="./images/under.jpg">
+            <img alt="picture" class="picture" src="./images/wednesday01.jpg">
+            <img alt="picture" class="picture" src="./images/wednesday02.jpg">
+            <img alt="picture" class="picture" src="./images/wednesday03.jpg">
         </div>
     </body>
 </html>
